@@ -98,22 +98,22 @@ body {
   font-weight: 500;
   border: none;
   border-radius: 5px;
-  background-color: #28a745;
+  background-color: #010009;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .employee-form button[type="button"] {
-  background-color: #dc3545;
+  background-color: #070001;
 }
 
 .employee-form button:hover {
-  background-color: #218838;
+  background-color: #09c54e;
 }
 
 .employee-form button[type="button"]:hover {
-  background-color: #c82333;
+  background-color: #6e6b6b;
 }
 
 .error {

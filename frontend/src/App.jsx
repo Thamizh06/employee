@@ -5,7 +5,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "./App.css";
 
-// Yup Validation Schema
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
   employee_id: yup
@@ -66,7 +65,7 @@ function App() {
       setEmployees(response.data);
       setShowDetails(true);
     } catch (error) {
-      alert(`Error fetching employees: ${error.message}`);  // Corrected error handling
+      alert(`Error fetching employees: ${error.message}`);  
     }
   };
 
@@ -150,6 +149,7 @@ function App() {
               <th>Department</th>
               <th>Date of Joining</th>
               <th>Role</th>
+              <th>Edit</th>
             </tr>
           </thead>
           <tbody>
